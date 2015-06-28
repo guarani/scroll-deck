@@ -13,7 +13,7 @@ and **jQuery** itself:
 <script src="jquery.scroll-deck.js"></script>
 ```
 
-Just add the class ~~page~~ to your ```div```s:
+Just add the class ```page``` to your ```div```s:
 
 ``` 
 <body>

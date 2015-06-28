@@ -4,6 +4,9 @@
  * Further changes, comments: @paulvonschrottky
  * Licensed under the MIT license
  * 
+ * This plugin depends on the great jquery.mousewheel.min.js plugin found at
+ * https://plugins.jquery.com/mousewheel/
+ * 
  * A jQuery plugin to produce a scroll deck similar to 'http://bradywilliams.co/'.
  * The idea is that instead of scrolling vertically through a tall website, each 
  * page slides up from the bottom of the screen and 'docks' on top of the 
@@ -26,7 +29,11 @@
             }, options);
         
         // Hide scrollbars caused by offscreen pages.
-        $('body').css('overflow', 'hidden');
+        $('body').css({
+            'overflow'  : 'hidden',
+            'margin'    : '0',
+            
+        });
 
         // Add our CSS to the pages.
         this.css({

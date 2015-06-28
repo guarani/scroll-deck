@@ -13,7 +13,7 @@ and **jQuery** itself:
 <script src="jquery.scroll-deck.js"></script>
 ```
 
-Just add the class ```page``` to your ```div```s:
+Just add a class e.g., ```page```, to your ```div```s:
 
 ``` 
 <body>
@@ -25,7 +25,7 @@ Just add the class ```page``` to your ```div```s:
 </body>
 ```
 
-Finally, invoke the plugin when the page loads:
+Finally, invoke the plugin on your class when the page loads:
 
 
 ```

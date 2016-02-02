@@ -21,7 +21,7 @@
  */
 ;(function($) {
     $.fn.scrolldeck = function(options) {
-        debugger;
+        
         // Defaults.
         var pluginName,
             settings = $.extend({
@@ -62,7 +62,6 @@
             }
 
             // Get the next page to be displayed and its current y position.
-            debugger;
             var nextPage = $(pages).filter('.current').next(); 
             var nextPageY = $(nextPage).offset().top;
 
